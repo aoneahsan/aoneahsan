@@ -1,11 +1,11 @@
 # GitHub Profile (aoneahsan) — Portfolio Info
 
-Reference Date: 2026-05-07
+Reference Date: 2026-06-08
 Project Type: GitHub profile README repo — banner + landing copy at github.com/aoneahsan
 Project Slug: github-profile
 Primary Email Reference: aoneahsan@gmail.com
-Last Portfolio Update: 2026-05-07
-Next Eligible Update After: 2026-05-14
+Last Portfolio Update: 2026-06-08
+Next Eligible Update After: 2026-06-15
 
 ---
 
@@ -22,6 +22,7 @@ Next Eligible Update After: 2026-05-14
 | Author | Ahsan Mahmood — aoneahsan@gmail.com — https://aoneahsan.com |
 | Contact (WhatsApp) | +923046619706 |
 | LinkedIn | https://linkedin.com/in/aoneahsan |
+| NPM | https://www.npmjs.com/~aoneahsan |
 | Resume | https://aoneahsan.com/resume |
 | CV | https://aoneahsan.com/cv |
 | Skype | `live:aoneahsan` |
@@ -59,6 +60,7 @@ Next Eligible Update After: 2026-05-14
 
 | Date | Type | Notes |
 | --- | --- | --- |
+| 2026-06-08 | Material refresh | Portfolio-refresh pass on the profile README. Tightened the intro copy, added a non-numeric "What I build" section (SaaS web apps, cross-platform Capacitor apps — web + Android, iOS-ready, browser extensions for Chrome/Firefox/Edge, open-source npm packages), and added the npm contact link ([npmjs.com/~aoneahsan](https://www.npmjs.com/~aoneahsan)) to both the README contact list and this dossier's Identity table. Removed the dangling empty "Let's connect!" trailing header. Banner/contact details unchanged; repo stays public and decoration-only (no package.json, no build). |
 | 2026-05-07 | Date refresh | No commits since 2026-04-30. State stable: profile README repo with light + dark SVG banners, tagline, contact directory. |
 | 2026-04-30 | Created | First portfolio info file. Captured the GitHub profile README repo — landing banner (light + dark SVG), tagline "Full-Stack Software Developer · SaaS Specialist", links to aoneahsan.com, LinkedIn, resume, CV. |
 
@@ -66,31 +68,33 @@ Next Eligible Update After: 2026-05-14
 
 ## One-Line Summary
 
-The GitHub Profile repo is the public landing for `github.com/aoneahsan` — a banner (light + dark SVG variants), tagline ("Full-Stack Software Developer · SaaS Specialist"), and contact links to the personal portfolio, LinkedIn, resume, CV, email, and WhatsApp.
+The GitHub Profile repo is the public landing for `github.com/aoneahsan` — a banner (light + dark SVG variants), tagline ("Full-Stack Software Developer · SaaS Specialist"), a short "What I build" overview, and contact links to the personal portfolio, LinkedIn, npm, resume, CV, email, and WhatsApp.
 
 ## Elevator Pitch
 
-This is the special `username/username` GitHub repo whose README renders directly on Ahsan's GitHub profile landing page. It carries a custom SVG banner with light/dark theme support, a clear tagline, and a complete contact directory. Recruiters and visitors land here before they reach any project repo — so it acts as the top-of-funnel surface for everything else.
+This is the special `username/username` GitHub repo whose README renders directly on Ahsan's GitHub profile landing page. It carries a custom SVG banner with light/dark theme support, a clear tagline, a concise summary of the kinds of products Ahsan builds, and a complete contact directory. Recruiters and visitors land here before they reach any project repo — so it acts as the top-of-funnel surface for everything else.
 
 ## What This Project Is About
 
-A purpose-built profile-decoration repo. Two SVG banners (light + dark) and a `README.md` with positioning, contact links, and pointers to the personal portfolio and resume.
+A purpose-built profile-decoration repo. Two SVG banners (light + dark) and a `README.md` with positioning, a short "What I build" overview, contact links, and pointers to the personal portfolio and resume.
 
 ## Vision
 
-Make the first impression on GitHub frictionless — banner, positioning, and contact details visible immediately.
+Make the first impression on GitHub frictionless — banner, positioning, what Ahsan builds, and contact details all visible immediately.
 
 ## Mission
 
 - Render a clean, theme-aware banner on the GitHub profile landing.
-- Provide complete contact + portfolio links in the first screen.
-- Stay maintenance-light — refresh banners and contact info only.
+- Communicate, in one screen, what Ahsan builds and how to reach him.
+- Provide complete contact + portfolio links up front.
+- Stay maintenance-light — refresh banners, copy, and contact info only.
 
 ## Best Features
 
 - Light + dark SVG banner variants (CSS `prefers-color-scheme` aware via `<picture>` + `<source>`).
 - Positioning tagline ("Full-Stack Software Developer · SaaS Specialist").
-- Complete contact directory: email, phone/WhatsApp, LinkedIn, GitHub, Resume, CV, Skype.
+- Concise "What I build" overview — SaaS web apps, cross-platform Capacitor apps, browser extensions, and open-source npm packages (honest, non-numeric framing; defers the live count to aoneahsan.com).
+- Complete contact directory: email, phone/WhatsApp, LinkedIn, GitHub, npm, Resume, CV, Skype.
 - Linked portfolio site `aoneahsan.com`.
 
 ## Hidden Facts and High-Value Talking Points
@@ -98,16 +102,18 @@ Make the first impression on GitHub frictionless — banner, positioning, and co
 - This is a **GitHub special repo** — `aoneahsan/aoneahsan` — recognized by GitHub to render its README on the profile landing page.
 - Light/dark theme switching uses `<picture>` + `<source media="(prefers-color-scheme: dark)">` — no JS, native browser behavior.
 - All assets are SVG — sharp at any DPI, theme-aware, and tiny.
+- Copy stays honest by design — it never quotes a project count, follower number, or star total in the README; the live portfolio at aoneahsan.com is the single source of truth for those figures.
 
 ## Strong Resume Bullet Ideas
 
-- Maintain a polished GitHub profile landing repo (`aoneahsan/aoneahsan`) with theme-aware light + dark SVG banners, positioning tagline, and a complete contact directory linked to the personal portfolio at aoneahsan.com.
+- Maintain a polished GitHub profile landing repo (`aoneahsan/aoneahsan`) with theme-aware light + dark SVG banners, a positioning tagline, a concise "what I build" overview, and a complete contact directory linked to the personal portfolio at aoneahsan.com.
 
 ## Social Post Angles
 
 - The GitHub special-repo pattern — what `username/username` does that nothing else does.
 - Theme-aware banners with `<picture>` + `prefers-color-scheme` (no JS).
 - A profile landing as the top-of-funnel for everything else you ship.
+- Keeping a profile README honest — say what you build, link the live portfolio for the numbers.
 
 ## Suggested SEO Keywords
 
@@ -128,6 +134,8 @@ Make the first impression on GitHub frictionless — banner, positioning, and co
 ## Known Constraints
 
 - Repo is decoration-only — no package.json, no build, no tests.
+- Must stay public so GitHub renders the README on the profile landing.
+- Keep the two contribution-banner SVGs in place — they are part of the rendered profile.
 
 ## File Usage Rule
 

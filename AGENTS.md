@@ -2,7 +2,7 @@
 
 Mirror of `CLAUDE.md`. GitHub special-repo for the profile landing.
 
-**Last Updated**: 2026-04-30
+**Last Updated**: 2026-06-08
 
 ## Portfolio Info File — Weekly Update Rule (IRON-SOLID)
 

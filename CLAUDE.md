@@ -2,7 +2,7 @@
 
 GitHub special-repo whose README renders on the profile landing at github.com/aoneahsan. Two SVG banners (light + dark) and a `README.md` with positioning + contact links.
 
-**Last Updated**: 2026-04-30
+**Last Updated**: 2026-06-08
 
 ## Portfolio Info File — Weekly Update Rule (IRON-SOLID)
 
