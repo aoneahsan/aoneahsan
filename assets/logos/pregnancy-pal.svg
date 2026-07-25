@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="PregnancyPal">
+  <defs>
+    <linearGradient id="ppal-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="92" height="92" rx="22" fill="url(#ppal-grad)"/>
+  <path d="M48 22 a14 14 0 0 1 14 14 v22 a14 14 0 0 1 -28 0 V36 a14 14 0 0 1 14-14z" fill="#FFFFFF"/>
+  <circle cx="48" cy="32" r="4" fill="#EC4899"/>
+  <path d="M40 70 L40 78 M56 70 L56 78" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>
