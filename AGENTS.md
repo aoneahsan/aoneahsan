@@ -34,6 +34,7 @@ Rules learned from the 2026-07-25 sweep — do not re-learn them the hard way:
 | **A `404`/`000` means OMIT the link** — never "coming soon", never ship it anyway. | Owner decision 2026-07-25. |
 | **The probe beats the data file.** | `PROJECT-LINKS-IDENTIFIERS-CONTACT.json` carried two docs URLs that do not resolve, and 8 Play URLs that 404. |
 | **`npmjs.com` 403s every non-browser client** (Cloudflare, even with a browser UA). | Verify packages through `https://registry.npmjs.org/<pkg>` instead — a 403 here is not a broken link. |
+| **Distinguish `403`/`999` from `404`/`000`.** The first pair is anti-bot (npm, Upwork, LinkedIn) and the link is fine; the second pair means genuinely unreachable and the link is omitted. | Treating a bot-block as a dead link deletes working links; treating a 404 as a bot-block ships dead ones. |
 | **Play Store 404 = not publicly listed.** | A closed/internal testing track returns 404. Several projects' own docs call these "live on Play Store"; they are not. |
 | **Only 4 repos are public** — `strata-storage`, `macleanup`, `linux-cleanup`, `sysscope`. | Every other repo link would 404. Confirm with `gh repo view aoneahsan/<repo> --json visibility`. |
 
@@ -62,6 +63,21 @@ README; an unreferenced asset is deleted, not kept "just in case" (it re-extract
   `~/Documents/ahsan-work/ahsan-notebook/static/assets/personal/projects-info-as-portfolio-item/`.
 - All share `viewBox="0 0 96 96"`, so they render as a uniform row. Re-extract from the portfolio-info file
   rather than hand-editing, and re-validate that each parses as XML.
+
+## Bio copy — `BIO.md` is the single home
+
+`BIO.md` holds the canonical bio in every length a surface asks for: the **160-character GitHub bio field**
+(with alternates), the rest of the GitHub profile settings (name, company, location, website, social
+accounts), and ~50 / ~120 / ~250-word versions for ORCID, LinkedIn, npm and the portfolio.
+
+- **Edit `BIO.md` first, then propagate** to GitHub, LinkedIn, ORCID, npm and aoneahsan.com. Never edit one
+  surface in isolation — that is how the versions drift apart.
+- Every claim in it is backed by the "Facts this bio is built on" table. Counts appear in **both** `BIO.md`
+  and the README header line: change one, change the other.
+- **Character counts are stated, so they must be measured**, not estimated:
+  `python3 -c "import re;print([len(b) for b in re.findall(r'\`\`\`text\n(.*?)\n\`\`\`',open('BIO.md').read(),re.S)])"`
+- **Probe the social URLs at every weekly refresh.** Profile links rot silently — the YouTube handle on the
+  GitHub profile was dead (`@ZaionsOfficial` → 404) and nobody noticed, because nobody clicks their own links.
 
 ## No docs site — ever
 

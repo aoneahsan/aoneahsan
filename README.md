@@ -434,6 +434,8 @@ simply absent rather than shown as dead links.
 | **LinkedIn** | [linkedin.com/in/aoneahsan](https://linkedin.com/in/aoneahsan) |
 | **GitHub** | [github.com/aoneahsan](https://github.com/aoneahsan) |
 | **npm** | [npmjs.com/~aoneahsan](https://www.npmjs.com/~aoneahsan) |
+| **YouTube** | [@aoneahsan](https://www.youtube.com/@aoneahsan) |
+| **Upwork** | [upwork.com/freelancers/aoneahsan](https://www.upwork.com/freelancers/aoneahsan) |
 | **ORCID** | [0009-0006-2311-8687](https://orcid.org/0009-0006-2311-8687) |
 | **Company** | [zaions.com](https://zaions.com) · [address](https://zaions.com/address) |
 
