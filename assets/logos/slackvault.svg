@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="SlackVault">
+  <defs>
+    <linearGradient id="sv-vault" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#611F69"/>
+      <stop offset="50%" stop-color="#4A154B"/>
+      <stop offset="100%" stop-color="#36C5F0"/>
+    </linearGradient>
+    <linearGradient id="sv-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECB22E"/>
+      <stop offset="100%" stop-color="#2EB67D"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="13" width="80" height="70" rx="16" fill="url(#sv-vault)" stroke="url(#sv-border)" stroke-width="3"/>
+  <circle cx="48" cy="48" r="22" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.9"/>
+  <g opacity="0.95" fill="#FFFFFF">
+    <rect x="33" y="40" width="30" height="5" rx="2.5"/>
+    <rect x="33" y="51" width="30" height="5" rx="2.5"/>
+    <rect x="40" y="33" width="5" height="30" rx="2.5"/>
+    <rect x="51" y="33" width="5" height="30" rx="2.5"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.7">
+    <circle cx="24" cy="48" r="4"/>
+    <circle cx="72" cy="48" r="4"/>
+    <circle cx="48" cy="24" r="4"/>
+  </g>
+</svg>
