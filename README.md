@@ -19,7 +19,7 @@
 
 ## Hi there 👋
 
-I'm Ahsan Mahmood, a full-stack software developer focused on SaaS products. I have six years of professional experience, and my active, up-to-date portfolio lives at **[aoneahsan.com](https://aoneahsan.com)**.
+I'm Ahsan Mahmood, a full-stack software developer focused on SaaS products. I have been building software professionally since 2018, and my active, up-to-date portfolio lives at **[aoneahsan.com](https://aoneahsan.com)**.
 
 ### What I build
 
