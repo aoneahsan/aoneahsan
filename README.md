@@ -35,8 +35,8 @@
 <a id="about"></a>
 ## 👋 About&nbsp;[#](#about)
 
-I'm Ahsan Mahmood, a full-stack developer building SaaS products end to end, professionally since
-2018 — from the data model and security rules through to the store listing.
+I'm Ahsan Mahmood, a full-stack developer with 8+ years building SaaS products end to end — from the
+data model and security rules through to the store listing.
 
 Most of what I ship follows one pattern: **a single React + TypeScript codebase that becomes a web
 app, an Android app, and a browser extension**, running on infrastructure that costs nothing to

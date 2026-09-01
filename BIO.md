@@ -3,7 +3,7 @@
 Canonical bio copy for Ahsan Mahmood, in every length a surface asks for. **One home:** change it here, then
 propagate. Every fact below is verified — see [Facts this bio is built on](#facts).
 
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-09-01
 
 - [📌 GitHub bio field](#github-bio-field)
 - [🧭 The rest of the GitHub profile](#github-profile-fields)
@@ -84,15 +84,15 @@ Full-stack developer. I build SaaS products and publish the pieces: strata-stora
 
 ### Short — ~50 words (ORCID biography, npm, speaker blurb, guest post)
 
-> Ahsan Mahmood is a full-stack software developer based in Lahore, Pakistan, building SaaS products
-> end to end, professionally since 2018. He ships web applications, Android apps, browser extensions
+> Ahsan Mahmood is a full-stack software developer based in Lahore, Pakistan, with 8+ years building
+> SaaS products end to end. He ships web applications, Android apps, browser extensions
 > and open-source npm packages — usually from a single React and TypeScript codebase, running on
 > infrastructure that costs nothing to operate.
 
 ### Medium — ~120 words (LinkedIn About opener, portfolio intro, proposal header)
 
-> I'm a full-stack software developer building SaaS products end to end, professionally since 2018 —
-> from the data model and security rules through to the store listing.
+> I'm a full-stack software developer with 8+ years building SaaS products end to end — from the data
+> model and security rules through to the store listing.
 >
 > Most of what I ship follows one pattern: a single React and TypeScript codebase that becomes a web app, an
 > Android app and a browser extension, running on infrastructure that costs nothing to operate. Where a
@@ -104,7 +104,7 @@ Full-stack developer. I build SaaS products and publish the pieces: strata-stora
 
 ### Long — ~250 words (About page, detailed profile, agency bio)
 
-> I'm Ahsan Mahmood, a full-stack software developer based in Lahore, Pakistan. Since 2018 I have
+> I'm Ahsan Mahmood, a full-stack software developer based in Lahore, Pakistan. For 8+ years I have
 > built SaaS products end to end — data modelling and security rules, the interface, the mobile packaging, the
 > store submission, and the documentation that has to exist afterwards.
 >
@@ -128,15 +128,15 @@ Full-stack developer. I build SaaS products and publish the pieces: strata-stora
 <a id="facts"></a>
 ## ✅ Facts this bio is built on&nbsp;[#](#facts)
 
-Verified 2026-07-25; the experience, npm-package and open-source rows re-verified 2026-08-25.
-Nothing above is estimated or rounded up.
+Verified 2026-07-25; the npm-package and open-source rows re-verified 2026-08-25; the experience row
+restated as a duration 2026-09-01. Nothing above is estimated or rounded up.
 
 | Claim | Source |
 |---|---|
 | 23 live products | `README.md` — each with a probe-verified link |
 | 20 web apps · 8 Google Play · 4 extension listings · 5 npm packages · 16 docs sites | sequential HTTP probe, 68/74 URLs returned 200; the 6 npm URLs 403 to bots and were confirmed via `registry.npmjs.org` |
 | 11 open-source repositories | live query against the portfolio database, itself derived from an HTTP probe: a `github_url` is written only where github.com returned 200. Re-counted 2026-08-25 |
-| Building software professionally since 2018 | owner-confirmed 2026-08-01; first role January 2018 (NetRoots Technologies), corroborated by `cv.md`. Stated as a start year rather than a duration, because a duration goes stale silently and this one did |
+| 8+ years building software professionally | Owner-confirmed 2026-08-01; first role **January 2018** (NetRoots Technologies), corroborated by `cv.md` — **8 years 8 months** as of 2026-09-01. 🔴 Stated as a duration on the owner's instruction (2026-09-01), which reverses the earlier start-year form and matches what aoneahsan.com already publishes (`services.glance.experience.value`, `seo.home.description`). **A duration rots silently — this one read "six years" when it was eight.** So it is not a number to copy forward: re-derive it from January 2018 at every refresh, and it becomes **9+ years in January 2027** |
 | Lahore, Pakistan; remote worldwide | GitHub `location` field + aoneahsan.com/address |
 | Company: Zaions | GitHub `company` field |
 | GitHub member since March 2018 | `users/aoneahsan.created_at` |
