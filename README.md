@@ -69,11 +69,11 @@ publishes — not a summary written for this page.
 <details>
 <summary><b>ZTools</b> — A privacy-first developer and power-user toolbox covering 20 categories, where the work happens in your browser rather than on someone's server.</summary>
 
-- 529 tools across 20 categories (519 free)
 - Mostly client-side processing (files stay on-device)
 - BYOK AI Growth Suite (10 SEO/AEO/GEO tools)
 - ZTools Pro tier + white-label license verification
-- Theme customizer (26 accent colors)
+- Published Android app + browser extension
+- Prerendered static HTML pages for AI search
 
 [🌐 Web](https://ztools.zaions.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.zaions.ztools) · [🧩 Chrome](https://chromewebstore.google.com/detail/ztools-300+-utility-tools/olkionpeobbpgmlfigafppbkniomelle)
 
