@@ -128,13 +128,13 @@ Full-stack developer. I build SaaS products and publish the pieces: strata-stora
 <a id="facts"></a>
 ## ✅ Facts this bio is built on&nbsp;[#](#facts)
 
-Verified 2026-07-25; the npm-package and open-source rows re-verified 2026-08-25; the experience row
-restated as a duration 2026-09-01. Nothing above is estimated or rounded up.
+Verified 2026-07-25; npm and open-source re-verified 2026-08-25; the experience row restated as a duration
+2026-09-01; **the product and channel counts re-derived from the database and a 97-URL probe on 2026-09-04**. Nothing above is estimated or rounded up.
 
 | Claim | Source |
 |---|---|
-| 23 live products | `README.md` — each with a probe-verified link |
-| 20 web apps · 8 Google Play · 4 extension listings · 5 npm packages · 16 docs sites | sequential HTTP probe, 68/74 URLs returned 200; the 6 npm URLs 403 to bots and were confirmed via `registry.npmjs.org` |
+| 58 live products | Build-time read of the portfolio database (`liveProjectCount.ts`): active projects with a live URL **or** an npm page on a host the site's own link policy owns (OD-127 / AD-20). Re-derived 2026-09-04. 🔴 The earlier **23** was a curated set, not this query — the two measure different things, so do not treat one as a correction of the other |
+| 50 with a live site · 8 Google Play · 4 extension listings · 25 npm packages · 11 docs sites | SQL over `projects` joined to `project_links`, re-derived 2026-09-04, plus a sequential HTTP probe of 97 README URLs: **80 returned 200, 13 were npmjs.com 403s** (a bot block, each confirmed through `registry.npmjs.org`), 4 needed a clean re-probe and returned 200. 🔴 Three rows changed materially against the 2026-07-25 figures: **npm 5 → 25** (the old row counted projects carrying an npm link, not published packages), **docs 16 → 11**, **web 20 → 50**. 🔴 And the npm total is **25, all his own** — a session on 2026-09-03 recorded 26 with one client-scoped package excluded; three consecutive searches on 2026-09-04 return 25 and `@perkforce/tool-kit` resolves to nothing, so there is nothing to exclude |
 | 11 open-source repositories | live query against the portfolio database, itself derived from an HTTP probe: a `github_url` is written only where github.com returned 200. Re-counted 2026-08-25 |
 | 8+ years building software professionally | Owner-confirmed 2026-08-01; first role **January 2018** (NetRoots Technologies), corroborated by `cv.md` — **8 years 8 months** as of 2026-09-01. 🔴 Stated as a duration on the owner's instruction (2026-09-01), which reverses the earlier start-year form and matches what aoneahsan.com already publishes (`services.glance.experience.value`, `seo.home.description`). **A duration rots silently — this one read "six years" when it was eight.** So it is not a number to copy forward: re-derive it from January 2018 at every refresh, and it becomes **9+ years in January 2027** |
 | Lahore, Pakistan; remote worldwide | GitHub `location` field + aoneahsan.com/address |

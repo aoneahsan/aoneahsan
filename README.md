@@ -22,401 +22,403 @@
 </p>
 
 <p align="center">
-  <b>23 products</b> &middot; 20 live web apps &middot; 8 on Google Play &middot; 4 browser-extension listings &middot; 5 npm packages &middot; 16 documentation sites
+  <a href="https://aoneahsan.com/projects"><b>58 live products</b></a> &middot;
+  <a href="https://aoneahsan.com/projects">50 with a live site</a> &middot;
+  8 on Google Play &middot;
+  4 browser-extension listings &middot;
+  <a href="https://www.npmjs.com/~aoneahsan">25 npm packages</a> &middot;
+  11 documentation sites
 </p>
+
+<p align="center"><sub>Every number above is read from the portfolio database and the npm registry at the time this file was written, never typed by hand. <a href="https://aoneahsan.com/projects">Check them.</a></sub></p>
 
 ---
 
 - [👋 About](#about)
-- [🚀 Projects](#projects)
+- [⭐ Featured work](#featured)
+- [🗂 Everything else](#everything-else)
+- [📦 npm packages](#packages)
 - [📇 Contact and profiles](#contact-and-profiles)
 - [💛 Support](#support)
 
 <a id="about"></a>
 ## 👋 About&nbsp;[#](#about)
 
-I'm Ahsan Mahmood, a full-stack developer with 8+ years building SaaS products end to end — from the
-data model and security rules through to the store listing.
+I am a full-stack developer with 8+ years building SaaS products end to end — from the data model and
+security rules through to the store listing.
 
-Most of what I ship follows one pattern: **a single React + TypeScript codebase that becomes a web
-app, an Android app, and a browser extension**, running on infrastructure that costs nothing to
-operate. Where a product needs a backend, it is Laravel or Cloudflare Workers; where it needs
-storage or email, it is my own [FilesHub](#developer-tools-and-infrastructure).
+Most of what I ship follows one pattern: **a single React and TypeScript codebase that becomes a web app,
+an Android app and a browser extension**, running on infrastructure that costs nothing to operate. Where a
+product needs a backend it is Laravel or Cloudflare Workers; where it needs storage or transactional email
+it is [FilesHub](https://aoneahsan.com/projects/com.aoneahsan.fileshub), which I built and run myself.
 
-My complete, always-current portfolio lives at **[aoneahsan.com](https://aoneahsan.com)** — it is
-also [an app](https://play.google.com/store/apps/details?id=com.aoneahsan.app).
+Based in Lahore, Pakistan, working remotely. My complete, always-current portfolio is at
+**[aoneahsan.com](https://aoneahsan.com)** — which is [also an Android
+app](https://play.google.com/store/apps/details?id=com.aoneahsan.app).
 
-**What I work with** — React 19, TypeScript, Capacitor, Firebase, Supabase, Laravel, Cloudflare
-Workers, Flutter, Tauri, WXT, TanStack, Radix UI, Tailwind.
+**What I work with** — React 19, TypeScript, Capacitor, Firebase, Supabase, Laravel, Cloudflare Workers,
+Flutter, Tauri, WXT, TanStack, Tailwind.
 
-<a id="projects"></a>
-## 🚀 Projects&nbsp;[#](#projects)
+<a id="featured"></a>
+## ⭐ Featured work&nbsp;[#](#featured)
 
-Every link below was checked before publishing. Channels that are not publicly listed yet are
-simply absent rather than shown as dead links.
-
-<a id="platforms-and-saas"></a>
-### Platforms and SaaS&nbsp;[#](#platforms-and-saas)
+Sixteen products, in the order they are ranked on the site. Each block opens to what it does and
+every channel it actually ships on. The bullets are the feature list the product page itself
+publishes — not a summary written for this page.
 
 <details>
-<summary><img src="./assets/logos/clearhire.svg" width="18" align="top" alt=""> <b>ClearHire</b> — hiring platform with resume building, verified employment and 50+ career tools</summary>
+<summary><b>ZTools</b> — A privacy-first developer and power-user toolbox covering 20 categories, where the work happens in your browser rather than on someone's server.</summary>
 
-- Structured, ATS-friendly resumes with scoring and application autofill for job seekers.
-- A verified-employment system that gives companies a trust signal beyond a CV.
-- 50+ career tools covering salary, negotiation, interview and application workflows.
-- A browser extension that extracts LinkedIn profiles and autofills job applications.
-- Licensable as a white-label hiring platform, priced against a published feature catalogue.
+- 529 tools across 20 categories (519 free)
+- Mostly client-side processing (files stay on-device)
+- BYOK AI Growth Suite (10 SEO/AEO/GEO tools)
+- ZTools Pro tier + white-label license verification
+- Theme customizer (26 accent colors)
 
-[🌐 Web](https://clearhire.aoneahsan.com) · [📚 Docs](https://clearhire-docs.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire)
+[🌐 Web](https://ztools.zaions.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.zaions.ztools) · [🧩 Chrome](https://chromewebstore.google.com/detail/ztools-300+-utility-tools/olkionpeobbpgmlfigafppbkniomelle)
 
-**➜ [Open ClearHire](https://clearhire.aoneahsan.com)**
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.zaions.ztools)
 
 </details>
 
 <details>
-<summary><img src="./assets/logos/lifewell.svg" width="18" align="top" alt=""> <b>LifeWell</b> — one health workspace for vitals, medication, sleep, nutrition and cycle tracking</summary>
+<summary><b>Video Controls Plus</b> — Playback speed, loops and shortcuts on any HTML5 video.</summary>
 
-- Vitals, water, medication, sleep, workouts and nutrition in one place, with reminders and PDF export.
-- Cycle, fertility and pregnancy-adjacent tracking inside the same product rather than a separate app.
-- Baby milestones, feeding and sleep for parents, alongside their own health.
-- Shared context for families and partners through the People module.
-- Ten languages, including right-to-left Arabic.
+- Speed control 0.1x-16x with presets
+- A-B loop with precise custom points
+- 400% audio boost + EQ/compressor/limiter
+- Visual filters, zoom, picture-in-picture
+- One-click screenshots & timestamped notes
 
-[🌐 Web](https://lifewell.aoneahsan.com) · [📚 Docs](https://lifewell-docs.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell)
+[🌐 Web](https://vcpeai.aoneahsan.com) · [🧩 Chrome](https://chromewebstore.google.com/detail/video-controls-plus/ihafdbecgnhendhckoknblmcminoikdb) · [🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) · [🌊 Edge](https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb) · [📚 Docs](https://vcpeai.aoneahsan.com/documentation)
 
-**➜ [Open LifeWell](https://lifewell.aoneahsan.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/labflow.svg" width="18" align="top" alt=""> <b>LabFlow</b> — multi-tenant LIMS taking a clinical sample from accession to released result</summary>
-
-- A tablet-friendly bench workflow — scan, accession, enter results — that keeps working offline.
-- A Draft → Reviewed → Approved → Released validation path with full audit trails.
-- Tenant-scoped dashboards, role-based access, billing, inventory and QC for lab owners.
-- An EMR-integration extension that lifts results into hospital systems without re-keying.
-- A patient portal for orders, results and home-collection tracking.
-
-[🌐 Web](https://labflow.aoneahsan.com)
-
-**➜ [Open LabFlow](https://labflow.aoneahsan.com)**
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.videocontrolsplus)
 
 </details>
 
 <details>
-<summary><img src="./assets/logos/imtehanhub.svg" width="18" align="top" alt=""> <b>ImtehanHub</b> — bilingual Urdu and English exam preparation for Pakistani Class 5 to FA/FSc</summary>
+<summary><b>ClearHire</b> — A hiring platform built around one idea: employment claims should be checkable.</summary>
 
-- A non-repeating test engine over board-aligned questions, in Urdu or English.
-- Book-page references on answers, so any result can be checked against the source.
-- A community-contribution module with verification, voting, moderation and achievements.
-- Bookmarks, streaks and a leaderboard to keep preparation consistent.
-- Group plans for teachers and institutes, usable across home and school.
+- Multi-template ATS-friendly resume builder
+- Verified-employment workflows + trust chips
+- 50+ career tools (ATS checker, JD analyzer, etc.)
+- LinkedIn extraction + job-application autofill extension
+- Gamification, messaging, community
+
+[🌐 Web](https://clearhire.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) · [📚 Docs](https://clearhire.aoneahsan.com/about)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.clearhire)
+
+</details>
+
+<details>
+<summary><b>LifeWell</b> — Health and wellness tracking across web, Android and a browser extension.</summary>
+
+- 45+ health tools (vitals, water, meds, exercise, sleep)
+- Period & fertility + baby milestone tracking
+- Full Radix theme customizer (7 options)
+- 10 languages including RTL Arabic
+- Browser extension (food-safety + reminders)
+
+[🌐 Web](https://lifewell.aoneahsan.com/) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) · [📚 Docs](https://lifewell-docs.aoneahsan.com)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.lifewell)
+
+</details>
+
+<details>
+<summary><b>LabFlow</b> — Multi-tenant laboratory information system across five production surfaces.</summary>
+
+- Full specimen lifecycle (accession to release)
+- Role-gated Draft->Reviewed->Approved->Released workflow
+- Multi-tenant isolation + audit trails
+- Chrome EMR-integration extension
+- Billing, inventory, quality control
+
+[🌐 Web](https://labflow.aoneahsan.com/)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.labflow)
+
+</details>
+
+<details>
+<summary><b>Trizlink</b> — Branded short links, link-in-bio pages, click analytics and a suite of utilities.</summary>
+
+- URL shortening with custom slugs & branded links
+- Link-in-bio builder with drag-and-drop ordering
+- Click analytics with breakdowns (D3 + visx)
+- Custom domains, workspaces & team invites
+- 51-page in-app tools suite (8 categories)
+
+[🌐 Web](https://trizlink.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.trizlink.app)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.trizlink.app)
+
+</details>
+
+<details>
+<summary><b>Native Update</b> — Over-the-air updates for Capacitor apps — bundle signing, staged rollout, and automatic rollback when a bundle fails to boot twice.</summary>
+
+- Live/OTA bundle updates (no store re-submission)
+- App-store update checks (Play Core + StoreKit)
+- In-app review prompts (throttle-aware)
+- Signed bundles + crash-rollback safety
+- Release-management CLI (bundle create/sign/verify)
+
+[🌐 Web](https://nativeupdate.aoneahsan.com/) · [📦 npm](https://www.npmjs.com/package/native-update)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.nativeupdate)
+
+</details>
+
+<details>
+<summary><b>SMS Mobile App</b> — Android-first SMS automation that dispatches campaigns through the phone itself.</summary>
+
+- Native SIM-based SMS send (no paid gateway)
+- Custom in-tree NativeSms plugin + foreground service
+- 15,851-record persons directory (virtualized table)
+- Admin CSV import + volunteer-device batch fan-out
+- Template field-mapping into send flow
+
+[🌐 Web](https://smsapp.aoneahsan.com/) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.smsapp) · [📚 Docs](https://smsapp-docs.aoneahsan.com)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.smsapp)
+
+</details>
+
+<details>
+<summary><b>Strata Storage</b> — One storage API across localStorage, IndexedDB, cookies, the URL, native Keychain and Keystore, SQLite and the filesystem.</summary>
+
+- Unified API across 8+ storage backends
+- Zero runtime dependencies
+- AES encryption, compression & TTL (opt-in)
+- Query engine + cross-tab sync + observers
+- Disaster recovery (checksums, durable writes, snapshots)
+
+[🌐 Web](https://stratastorage.aoneahsan.com) · [📦 npm](https://www.npmjs.com/package/strata-storage) · [📚 Docs](https://stratastorage-docs.aoneahsan.com) · [🐙 GitHub](https://github.com/aoneahsan/strata-storage)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.stratastorage)
+
+</details>
+
+<details>
+<summary><b>Anonymous Chat AI (AChat)</b> — No-signup chat.</summary>
+
+- No-signup, share-a-link chat
+- Optional in-browser E2E encryption (Web Crypto)
+- 10-day auto-deletion via Firestore TTL
+- TipTap composer (slash commands, @mentions, reactions)
+- Multi-file upload queue + image lightbox + voice memos
+
+[🌐 Web](https://achat.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.achat)
+
+</details>
+
+<details>
+<summary><b>FilesHub</b> — Laravel platform pairing multi-tenant file storage with 72 developer APIs.</summary>
+
+- Multi-tenant object storage (upload/download/delete)
+- 72 features over 181 versioned REST endpoints
+- Multi-provider transactional email
+- Image processing, PDF, QR & barcode generation
+- Per-key permissions, origin whitelisting, rate limiting
+
+[🌐 Web](https://fileshub.zaions.com)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.fileshub)
+
+</details>
+
+<details>
+<summary><b>HabitForge</b> — Habit tracking with visual strength scoring and offline-first sync.</summary>
+
+- Visual habit-strength scoring (D3 thread/rope viz)
+- Multi-cadence tracking (daily/weekly/custom)
+- Resilient progress (missed day weakens, not breaks)
+- Offline-first via Firestore IndexedDB cache
+- Focus Mode site blocker in browser extension
+
+[🌐 Web](https://habitforge.aoneahsan.com/) · [📚 Docs](https://habitforge-docs.aoneahsan.com)
+
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.habitforge)
+
+</details>
+
+<details>
+<summary><b>ImtehanHub</b> — Bilingual Urdu and English exam preparation, Class 5 to FA/FSc.</summary>
+
+- Non-repeating chapter-wise test engine (MCQ/short/long)
+- Book-page reference on every question
+- Bilingual Urdu (RTL) + English
+- Community module (CNIC verification, voting, moderation)
+- Referral-driven auto-Pro + UTM attribution
 
 [🌐 Web](https://imtehanhub.aoneahsan.com) · [📚 Docs](https://imtehanhub-docs.aoneahsan.com)
 
-**➜ [Open ImtehanHub](https://imtehanhub.aoneahsan.com)**
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.imtehanhub)
 
 </details>
 
 <details>
-<summary><img src="./assets/logos/taxease.svg" width="18" align="top" alt=""> <b>TaxEase</b> — Pakistan tax filings plus 70+ global finance and tax calculators</summary>
+<summary><b>ShieldPro Ultimate Ad Blocker</b> — Manifest V3 ad-blocking and privacy suite, ~499 blocking rules.</summary>
 
-- Request real filings — NTN, ATL, income and sales tax, trademark, company registration — with document upload and status tracking.
-- A client-to-provider service-request workflow instead of chasing a consultant by phone.
-- 60+ free calculators and 10+ document generators, no account required.
-- A ready-made client portal and back office for solo tax professionals and small practices.
-- Per-route tool and service pages written to be found by search engines and AI assistants.
-
-[🌐 Web](https://taxease.aoneahsan.com) · [📚 Docs](https://taxease-docs.aoneahsan.com)
-
-**➜ [Open TaxEase](https://taxease.aoneahsan.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/trizlink.svg" width="18" align="top" alt=""> <b>TrizLink</b> — branded short links, link-in-bio pages, click analytics and ~51 utilities</summary>
-
-- Branded short links on custom domains, with click analytics and UTM-friendly tracking.
-- A link-in-bio page, so one product replaces stitching a bio tool to a shortener.
-- Shared workspaces, team invites and admin controls for managing a link portfolio together.
-- A programmatic API and a browser extension for shortening from any tab.
-- Around 51 client-side utilities — code, SEO, PDF, image, text and colour tools — in the same app.
-
-[🌐 Web](https://trizlink.com) · [📚 Docs](https://docs.trizlink.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.trizlink.app)
-
-**➜ [Open TrizLink](https://trizlink.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/pregnancy-pal.svg" width="18" align="top" alt=""> <b>PregnancyPal</b> — week-by-week pregnancy tracking with nutrition, vitals and fertility in one app</summary>
-
-- Week-by-week guidance alongside daily logging of vitals, symptoms, mood, nutrition and exercise.
-- Cycle, ovulation, fertile-window and basal-temperature tracking for those trying to conceive.
-- A doctor-friendly PDF export to bring to a prenatal appointment.
-- A medical disclaimer on every health surface — supportive guidance, never a diagnosis.
-- Nine languages, and appearance settings that work with or without an account.
-
-[🌐 Web](https://pregnancypal.aoneahsan.com) · [📚 Docs](https://pregnancypal-docs.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal)
-
-**➜ [Open PregnancyPal](https://pregnancypal.aoneahsan.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/habitforge.svg" width="18" align="top" alt=""> <b>HabitForge</b> — habit tracking scored by behavioural strength, not streak length</summary>
-
-- Every habit carries a visible strength score, so progress reflects behaviour rather than a counter.
-- A missed day weakens the score instead of resetting it — no break-and-quit cliff.
-- Multi-cadence consistency tracking and keystone-habit identification.
-- Works offline: loaded data stays readable, and new completions sync on reconnect.
-- A companion extension adds in-context check-ins and a Focus Mode site blocker.
-
-[🌐 Web](https://habitforge.aoneahsan.com) · [📚 Docs](https://habitforge-docs.aoneahsan.com)
-
-**➜ [Open HabitForge](https://habitforge.aoneahsan.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/slackvault.svg" width="18" align="top" alt=""> <b>SlackVault</b> — keep Slack history past the free plan's 90-day cutoff, in your own storage</summary>
-
-- Preserve messages, threads, files and history that a free Slack plan would otherwise delete.
-- Every byte is stored in your own Firebase and FilesHub, never routed through a third party.
-- An independent, exportable archive — no vendor lock-in and no per-seat upgrade.
-- Export a clean JSON copy of a workspace's knowledge before access ends.
-- A searchable, re-importable archive for record-keeping without an enterprise tier.
-
-[🌐 Web](https://slackvault.aoneahsan.com) · [📚 Docs](https://slackvault-docs.aoneahsan.com)
-
-**➜ [Open SlackVault](https://slackvault.aoneahsan.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/achat.svg" width="18" align="top" alt=""> <b>AChat</b> — no-signup chat rooms that auto-delete after 10 days</summary>
-
-- Share a link and talk — nothing to install, no account to create.
-- Lock a room with a password for genuine in-browser end-to-end encryption.
-- Messages and files auto-delete after 10 days, so there is nothing to clean up afterwards.
-- Drag-and-drop file sharing up to 10 MB per file, with previews.
-- Embed a live room in any page through the iframe widget.
-
-[🌐 Web](https://achat.aoneahsan.com) · [📚 Docs](https://achat-docs.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat)
-
-**➜ [Open AChat](https://achat.aoneahsan.com)**
-
-</details>
-
-<a id="developer-tools-and-infrastructure"></a>
-### Developer tools and infrastructure&nbsp;[#](#developer-tools-and-infrastructure)
-
-<details>
-<summary><img src="./assets/logos/ztools.svg" width="18" align="top" alt=""> <b>ZTools</b> — 500+ browser-based utilities, most running entirely on your device</summary>
-
-- Hundreds of converters, generators, formatters and encoders behind one bookmark — most run locally, so files never leave the device.
-- Text, image, PDF, code, data, SEO, maths, finance and barcode/QR tools across 20 categories.
-- An AI Growth Suite that runs SEO and answer-engine checks on your own API keys, with no per-seat markup.
-- White-label licensing for agencies, SaaS teams and educators, with verifiable licences.
-- The same product on web, Android and Chrome, not a website with an app bolted on.
-
-[🌐 Web](https://ztools.zaions.com) · [📚 Docs](https://ztools-docs.zaions.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.zaions.ztools) · [🧩 Chrome](https://chromewebstore.google.com/detail/ztools-300+-utility-tools/olkionpeobbpgmlfigafppbkniomelle)
-
-**➜ [Open ZTools](https://ztools.zaions.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/files-hub.svg" width="18" align="top" alt=""> <b>FilesHub</b> — self-hosted storage and 72 developer APIs behind one key</summary>
-
-- Multi-tenant file storage and transactional email behind a single API key.
-- 72 developer utilities across 181 versioned endpoints, instead of wiring up five vendors.
-- Per-key permissions, origin restrictions, rate limiting and audit logs.
-- Self-hostable on Laravel, with multiple email providers for deliverability constraints.
-- The upload and email backend that every other project on this page sends its files through.
-
-[🌐 Web](https://fileshub.zaions.com) · [📚 Docs](https://fileshub-docs.zaions.com)
-
-**➜ [Open FilesHub](https://fileshub.zaions.com)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/native-update.svg" width="18" align="top" alt=""> <b>Native Update</b> — Capacitor plugin for over-the-air updates and in-app review prompts</summary>
-
-- Ship JavaScript and asset fixes over the air, with no store review wait for non-native changes.
-- Play Core and App Store update prompts with a non-disruptive user experience.
-- Throttle-aware in-app review prompts on both platforms.
-- A release-management CLI plus a self-hostable Laravel backend — the wire contract is identical either way.
-- Signed bundles with crash-rollback safety, and a documentation site with runnable examples.
-
-[📦 npm](https://www.npmjs.com/package/native-update) · [🌐 Web](https://nativeupdate.aoneahsan.com) · [📚 Docs](https://nativeupdate-docs.aoneahsan.com)
-
-**➜ [Install `native-update`](https://www.npmjs.com/package/native-update)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/strata-storage.svg" width="18" align="top" alt=""> <b>Strata Storage</b> — one storage API across localStorage, IndexedDB, SQLite, Keychain and the filesystem</summary>
-
-- Zero dependencies: a single adapter-based API spanning web, iOS and Android storage.
-- Secure native storage — Keychain and Keystore — behind the same calls as the web code.
-- Encryption, TTL, querying, cross-tab sync and disaster recovery as opt-in switches.
-- Idiomatic React, Vue and Angular bindings without locking storage to a framework.
-- One import and no provider boilerplate, so storage is wired in minutes rather than per platform.
-
-[📦 npm](https://www.npmjs.com/package/strata-storage) · [⭐ GitHub](https://github.com/aoneahsan/strata-storage) · [🌐 Web](https://stratastorage.aoneahsan.com) · [📚 Docs](https://stratastorage-docs.aoneahsan.com)
-
-**➜ [Install `strata-storage`](https://www.npmjs.com/package/strata-storage)**
-
-</details>
-
-<a id="browser-extensions"></a>
-### Browser extensions&nbsp;[#](#browser-extensions)
-
-<details>
-<summary><img src="./assets/logos/video-controls-plus.svg" width="18" align="top" alt=""> <b>Video Controls Plus</b> — turn any HTML5 video into a power-user cockpit</summary>
-
-- Playback from 0.1× to 16×, A–B looping and frame-stepping on any HTML5 player.
-- Audio boost up to 400%, visual filters and captions for harder-to-hear or harder-to-see footage.
-- One-click screenshots and timestamped notes that persist per video.
-- Over 40 keyboard shortcuts and a Control Center overlay for keyboard-first control.
-- Manifest V3 with a strict no-remote-script policy — published on Chrome, Firefox and Edge.
-
-[🧩 Chrome](https://chromewebstore.google.com/detail/ihafdbecgnhendhckoknblmcminoikdb) · [🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus) · [🌊 Edge](https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb) · [🌐 Web](https://vcpeai.aoneahsan.com)
-
-**➜ [Add to Chrome](https://chromewebstore.google.com/detail/ihafdbecgnhendhckoknblmcminoikdb)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/shieldpro-ultimate.svg" width="18" align="top" alt=""> <b>ShieldPro Ultimate</b> — Manifest V3 ad and tracker blocking with DNS-over-HTTPS privacy tooling</summary>
-
-- Around 499 declarativeNetRequest rules, plus content-script element and popup hiding.
-- DNS-over-HTTPS, fingerprint and WebRTC posture, and automatically rejected consent banners.
-- Dedicated YouTube ad blocking with a per-channel whitelist, so creators can still be supported.
-- Custom filters, regex patterns, an element picker, and import/export of settings.
-- A five-tier system that unlocks deeper protection through use, never through payment.
+- Ad blocking
+- Progressive tiers
+- Custom filters
+- Whitelist support
 
 [🌐 Web](https://shieldpro.aoneahsan.com)
 
-**➜ [Open ShieldPro Ultimate](https://shieldpro.aoneahsan.com)**
-
-</details>
-
-<a id="commerce"></a>
-### Commerce&nbsp;[#](#commerce)
-
-<details>
-<summary><img src="./assets/logos/growthify.svg" width="18" align="top" alt=""> <b>Growthify</b> — popups, reviews, wishlists, bundles and upsells in one embedded Shopify app</summary>
-
-- Replace six to eight single-purpose apps with one install: fewer subscriptions and less script bloat.
-- 50 storefront blocks, all driven from the theme editor — no Liquid editing required.
-- Cookie consent, age verification and GDPR handling built into the same suite.
-- A real free tier to start on, with linear upgrades as the store grows.
-- Multi-store support and team roles for agencies running several storefronts.
-
-[🌐 Web](https://growthify.aoneahsan.com) · [📚 Docs](https://growthify-docs.aoneahsan.com)
-
-**➜ [Open Growthify](https://growthify.aoneahsan.com)**
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.shieldpro)
 
 </details>
 
 <details>
-<summary><img src="./assets/logos/empora.svg" width="18" align="top" alt=""> <b>Empora for WooCommerce</b> — 35+ swappable WooCommerce modules behind one React admin</summary>
+<summary><b>PregnancyPal</b> — Week-by-week maternal wellness, nutrition, vitals and prenatal exercise.</summary>
 
-- Replace a dozen conflicting WooCommerce plugins with one product and one admin.
-- Enable only the modules a store actually needs; the rest stay out of the way.
-- Multi-site licences with self-service activation and deactivation tied to the subscription.
-- A free WordPress.org build with a clean upgrade path and no upsell clutter.
-- A self-hosted updater that delivers premium updates outside the .org channel.
+- Week-by-week pregnancy tracking
+- Period & fertility (ovulation, fertile window, BBT)
+- Nutrition, exercise & daily vitals logging
+- Doctor-friendly PDF health-report export
+- Community module + full blog
 
-[🌐 Web](https://empora.aoneahsan.com) · [📚 Docs](https://empora-docs.aoneahsan.com)
+[🌐 Web](https://pregnancypal.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal) · [📚 Docs](https://pregnancypal-docs.aoneahsan.com)
 
-**➜ [Open Empora](https://empora.aoneahsan.com)**
-
-</details>
-
-<a id="command-line-utilities"></a>
-### Command-line utilities&nbsp;[#](#command-line-utilities)
-
-<details>
-<summary><img src="./assets/logos/macleanup.svg" width="18" align="top" alt=""> <b>MacLeanup</b> — safe-by-default macOS cleanup CLI with 28 sections and a real dry run</summary>
-
-- Reclaim gigabytes from Xcode DerivedData, Gradle, package caches, Docker and stale `node_modules`.
-- A real `--dry-run` and per-section prompts, so you see exactly what will happen first.
-- Applications go to Trash rather than `rm`, and deep sections stay behind explicit opt-in.
-- Scriptable unattended sweeps (`--all --yes --quiet`, `--json`) suitable for cron.
-- Zero network calls and no telemetry; run it with `npx macleanup` and install nothing.
-
-[📦 npm](https://www.npmjs.com/package/macleanup) · [⭐ GitHub](https://github.com/aoneahsan/macleanup)
-
-**➜ [Run `npx macleanup`](https://www.npmjs.com/package/macleanup)**
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.pregnancypal)
 
 </details>
 
 <details>
-<summary><img src="./assets/logos/linux-cleanup.svg" width="18" align="top" alt=""> <b>Linux Cleanup</b> — reclaim 10–50+ GB of regenerable developer junk on Linux, safely</summary>
+<summary><b>TaxEase</b> — Tax compliance workflows for filers, with an admin side for staff.</summary>
 
-- Understands modern JavaScript, Java, Android and test-runner caches, not just `/tmp`.
-- Allowlist-based safety guards with interactive-by-default deletion.
-- A read-only scan and `--list-targets`, so nothing happens before you have seen it.
-- Schema-versioned JSON reports plus Markdown and HTML export as an audit trail.
-- A weekly cron installer for recurring cleanup; start with `npx linux-cleanup`.
+- Service request management
+- Document handling
+- Real-time status updates
+- Secure communications
+- Mobile app support
 
-[📦 npm](https://www.npmjs.com/package/linux-cleanup) · [⭐ GitHub](https://github.com/aoneahsan/linux-cleanup)
+[🌐 Web](https://taxease.aoneahsan.com/)
 
-**➜ [Run `npx linux-cleanup`](https://www.npmjs.com/package/linux-cleanup)**
-
-</details>
-
-<details>
-<summary><img src="./assets/logos/sysscope.svg" width="18" align="top" alt=""> <b>SysScope</b> — audit a Mac or Linux box and see which Ollama models it can actually run</summary>
-
-- Grades 15 popular Ollama models against your real memory budget: fits, tight, or too big.
-- A plain-language read on whether a machine is comfortable at 7–9B, tight at 14B, or short on memory.
-- A health scorecard alongside a shareable Markdown report.
-- `--share` redacts machine identifiers, so a report is safe to post in an issue or a gist.
-- Read-only, dependency-free Bash with no network calls; runs through `npx sysscope`.
-
-[📦 npm](https://www.npmjs.com/package/sysscope) · [⭐ GitHub](https://github.com/aoneahsan/sysscope)
-
-**➜ [Run `npx sysscope`](https://www.npmjs.com/package/sysscope)**
+→ [Full details on aoneahsan.com](https://aoneahsan.com/projects/com.aoneahsan.taxease)
 
 </details>
 
-<a id="communication-and-company"></a>
-### Communication and company&nbsp;[#](#communication-and-company)
+<a id="everything-else"></a>
+## 🗂 Everything else&nbsp;[#](#everything-else)
 
-<details>
-<summary><img src="./assets/logos/sms-app.svg" width="18" align="top" alt=""> <b>SMS Mobile App</b> — Android SMS campaigns sent through the phone's own SIM</summary>
+The rest of the catalogue, by category. Only products you can actually open are listed —
+**8 further active projects have no public channel yet** and are left out rather than
+listed as names with nothing behind them.
 
-- Dispatches campaigns through the device's own SIM via a native plugin and a foreground service.
-- No paid SMS gateway — volunteer phones each send on their own carrier plan.
-- CSV import and a queryable 15,000-row recipient directory with per-template field mapping.
-- Rate control and a server-capped device pool, for operational control without a backend server.
-- Send-only by design: no inbox access, contacts stay on the device, and no message content reaches analytics.
+### Full-stack products (18)
 
-[🌐 Web](https://smsapp.aoneahsan.com) · [📚 Docs](https://smsapp-docs.aoneahsan.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.smsapp)
+| Product | What it is | Where |
+|---|---|---|
+| [Aura CRM](https://aoneahsan.com/projects/com.aoneahsan.auracrm) | A voice-first client operations engine for independent professionals who spend hours on… | [🌐](https://auracrm.aoneahsan.com "Web") |
+| [Bazaaro](https://aoneahsan.com/projects/com.aoneahsan.bazaaro) | A trust-first classifieds marketplace (OLX alternative) with escrow, verified identity,… | [🌐](https://bazaaro.aoneahsan.com "Web") |
+| [Corra](https://aoneahsan.com/projects/com.aoneahsan.corra) | A unified SaaS for K-12 teachers that keeps planning, grading, SPED/IEP, comms, and beh… | [🌐](https://corra.aoneahsan.com "Web") |
+| [DoorNest](https://aoneahsan.com/projects/com.aoneahsan.doornest) | A cross-platform Flutter app that matches roommates by lifestyle, then helps them split… | [🌐](https://doornest.aoneahsan.com "Web") |
+| [Empora for WooCommerce](https://aoneahsan.com/projects/com.aoneahsan.empora) | Freemium WooCommerce suite — WP plugin with a 35+ module React admin, SaaS dashboard an… | [🌐](https://empora.aoneahsan.com "Web") |
+| [Growthify (All-in-One Shopify Suite)](https://aoneahsan.com/projects/com.aoneahsan.growthify) | Embedded Shopify app suite with a 50-block storefront theme extension and merchant grow… | [🌐](https://growthify.aoneahsan.com "Web") |
+| [Legal Eagle Law Firm](https://aoneahsan.com/projects/com.legaleaglelaws.app) | Legal-tech SaaS: an AI-prerendered marketing site, a ~15 | <sub>client-hosted</sub> |
+| [LinkedIn Posts Automation](https://aoneahsan.com/projects/com.aoneahsan.a1la) | A Cloudflare Worker plus Supabase system that auto-publishes pre-written LinkedIn posts… | [🌐](https://a1la.aoneahsan.com "Web") |
+| [MRO Express](https://aoneahsan.com/projects/com.aoneahsan.mroexpress) | A B2B parts-sourcing and on-demand delivery platform for HVAC, plumbing, and electrical… | [🌐](https://mroexpress.aoneahsan.com "Web") |
+| [Nursana](https://aoneahsan.com/projects/com.aoneahsan.nursana) | Cross-platform SaaS for nurses bundling calculators, credential tracking, an on-device… | [🌐](https://nursana.aoneahsan.com "Web") |
+| [OrbitCubs CRM](https://aoneahsan.com/projects/com.aoneahsan.orbitcubs) | A three-surface CRM (web, Android, browser extension) for tracking contacts, deals, and… | [🌐](https://orbitcubs.aoneahsan.com "Web") [📚](https://github.com/aoneahsan/orbitcubs-crm-docs "Docs") |
+| [Perkforce — Employee Perks & Benefits SaaS](https://aoneahsan.com/projects/com.perkforce.app) | Multi-tenant employee-perks SaaS across web, iOS, Android, Slack & Teams | <sub>client-hosted</sub> |
+| [Polymath AI Workspace](https://aoneahsan.com/projects/com.aoneahsan.polymath) | A document-based AI workspace with four lenses — Study, Career, Knowledge, and Document… | [🌐](https://polymath.aoneahsan.com "Web") |
+| [Safar](https://aoneahsan.com/projects/com.aoneahsan.safar) | A safety-first ride-hailing platform for riders, drivers, and fleet operators, built fr… | [🌐](https://safar.aoneahsan.com "Web") |
+| [SlackVault](https://aoneahsan.com/projects/com.aoneahsan.slackvault) | Exports and archives Slack history so a workspace outgrowing its retention limit keeps… | [🌐](https://slackvault.aoneahsan.com "Web") [📚](https://slackvault.aoneahsan.com/docs "Docs") |
+| [Trialith](https://aoneahsan.com/projects/com.aoneahsan.trialith) | Clinical-trial protocol intelligence SaaS for pharma sponsors and CROs — audit, simulat… | [🌐](https://trialith.aoneahsan.com "Web") |
+| [Vessl](https://aoneahsan.com/projects/com.aoneahsan.vessl) | Premium dark-first car marketplace + multi-tenant dealer-operations SaaS, with a 3D car… | [🌐](https://vessl.aoneahsan.com "Web") |
+| [Whiteboard Video Maker](https://aoneahsan.com/projects/com.aoneahsan.wbamai) | Client-side whiteboard-animation studio that draws, narrates, and exports WebM and GIF… | [🌐](https://wbamai.aoneahsan.com "Web") |
 
-**➜ [Open SMS Mobile App](https://smsapp.aoneahsan.com)**
+### Web apps (11)
 
-</details>
+| Product | What it is | Where |
+|---|---|---|
+| [Ahsan Mahmood Portfolio](https://aoneahsan.com/projects/com.aoneahsan.app) | Production personal-brand platform: projects, services, blog, testimonials, and contact… | [🌐](https://aoneahsan.com "Web") [🤖](https://play.google.com/store/apps/details?id=com.aoneahsan.app "Google Play") [📚](https://aoneahsan.com/pricing.md "Docs") |
+| [AI Personal Assistant](https://aoneahsan.com/projects/com.aoneahsan.aipa) | Comprehensive AI-powered personal assistant application | [🌐](https://aipa.aoneahsan.com/ "Web") |
+| [ChatExport](https://aoneahsan.com/projects/com.aoneahsan.chatexport) | Free ChatGPT App (OpenAI Apps SDK / MCP) that exports ChatGPT conversations to Markdown… | [🌐](https://chatgpteai.aoneahsan.com "Web") |
+| [ContentSynergy AI](https://aoneahsan.com/projects/com.aoneahsan.contentsynergy) | Free four-surface AI content workspace (web + mobile + extension + desktop) that genera… | [🌐](https://contentsynergy.aoneahsan.com/ "Web") |
+| [ExoHunter AI](https://aoneahsan.com/projects/com.aoneahsan.exohunterai) | AI-powered exoplanet discovery and analysis platform | [🌐](https://exohunterai.aoneahsan.com/ "Web") |
+| [ForgeAI](https://aoneahsan.com/projects/com.aoneahsan.forgeai) | Professional AI-powered tools suite for writing, design, development, and business | [🌐](https://forgeai.aoneahsan.com/ "Web") |
+| [LearnQuest AI](https://aoneahsan.com/projects/com.aoneahsan.learnqai) | 750+ games and learning activities for kids ages 1-15 | [🌐](https://learnqai.aoneahsan.com/ "Web") |
+| [Nyuk.in Invoice Generator](https://aoneahsan.com/projects/com.aoneahsan.invoiceapp) | Invoice generation and management application with modern UI | <sub>client-hosted</sub> |
+| [PrepAI (Interview Preparation App)](https://aoneahsan.com/projects/com.aoneahsan.interviewpai) | Interview-prep platform pairing ~900 hand-authored, browser-runnable coding drills acro… | [🌐](https://interviewpai.aoneahsan.com/ "Web") |
+| [SnapContact](https://aoneahsan.com/projects/com.aoneahsan.snapcontact) | Contact-intelligence suite that turns every chat, business card, or email signature int… | [🌐](https://snapcontact.aoneahsan.com "Web") |
+| [Zaions Portfolio](https://aoneahsan.com/projects/com.zaions-app) | Company-brand portfolio + content platform: a Firestore-backed projects directory, blog… | [🌐](https://zaions.com "Web") |
 
-<details>
-<summary><img src="./assets/logos/zaions.svg" width="18" align="top" alt=""> <b>Zaions</b> — company portfolio and content platform with an 18-screen admin CMS</summary>
+### Tools and utilities (13)
 
-- A public homepage and a Firestore-backed portfolio directory with search and filters.
-- An 18-screen admin CMS for posts, pages, portfolio items, taxonomies and media.
-- Comment moderation and contact-submission handling, without touching code.
-- A full theme customizer exposed to signed-out visitors as well as the team.
-- 84 prerendered route shells so search engines and AI crawlers see real content.
+| Product | What it is | Where |
+|---|---|---|
+| [Candy Rush](https://aoneahsan.com/projects/com.aoneahsan.candyrush) | A match-3 puzzle game with 150 levels across 10 worlds, special candies, boosters, a da… | [🌐](https://candyrush.aoneahsan.com "Web") |
+| [Capacitor Auth Manager](https://aoneahsan.com/projects/com.aoneahsan.capacitorauthmanager) | Framework-agnostic TypeScript authentication library unifying 15 OAuth, passwordless, c… | [📦](https://www.npmjs.com/package/capacitor-auth-manager "npm") [🐙](https://github.com/aoneahsan/capacitor-auth-manager "GitHub") |
+| [Capacitor Biometric Authentication](https://aoneahsan.com/projects/com.aoneahsan.capacitorbiometricauth) | Framework-agnostic, provider-less biometric authentication library: one TypeScript API… | [📦](https://www.npmjs.com/package/capacitor-biometric-authentication "npm") |
+| [Code Craft Studio](https://aoneahsan.com/projects/com.aoneahsan.codecraftstudio) | React library to scan and generate QR codes and barcodes, with optional Capacitor nativ… | [📦](https://www.npmjs.com/package/code-craft-studio "npm") |
+| [Linux Cleanup](https://aoneahsan.com/projects/com.aoneahsan.linuxcleanup) | A modular Bash and Node | [📦](https://www.npmjs.com/package/linux-cleanup "npm") [🐙](https://github.com/aoneahsan/linux-cleanup "GitHub") |
+| [Ludo — Cross-Platform Multiplayer Board Game](https://aoneahsan.com/projects/com.aoneahsan.ludo) | Multiplayer Ludo — play online with friends, local pass-and-play, or vs AI bots, on web… | [🌐](https://ludo.aoneahsan.com "Web") |
+| [MacLeanup](https://aoneahsan.com/projects/com.aoneahsan.macleanup) | A safe-by-default macOS cleanup CLI covering 28 cleanup sections with a real dry-run, p… | [📦](https://www.npmjs.com/package/macleanup "npm") [🐙](https://github.com/aoneahsan/macleanup "GitHub") |
+| [Notification Kit](https://aoneahsan.com/projects/com.aoneahsan.notificationkit) | Zero-runtime-dependency TypeScript library that unifies push, local, and in-app notific… | [📦](https://www.npmjs.com/package/notification-kit "npm") [🐙](https://github.com/aoneahsan/notification-kit "GitHub") |
+| [shared-features](https://aoneahsan.com/projects/com.aoneahsan.sharedfeatures) | NPM TypeScript/React library that centralizes feature flags, cross-promotion advertisin… | [📦](https://www.npmjs.com/package/shared-features "npm") [🐙](https://github.com/aoneahsan/shared-features "GitHub") |
+| [SysScope](https://aoneahsan.com/projects/com.aoneahsan.sysscope) | Read-only Bash CLI that audits your Mac or Linux machine and grades which local Ollama… | [📦](https://www.npmjs.com/package/sysscope "npm") [🐙](https://github.com/aoneahsan/sysscope "GitHub") |
+| [Unified Error Handling](https://aoneahsan.com/projects/com.aoneahsan.unifiederrorhandling) | Zero-dependency TypeScript library with one consistent API to capture, enrich, and rout… | [📦](https://www.npmjs.com/package/unified-error-handling "npm") [🐙](https://github.com/aoneahsan/unified-error-handling "GitHub") |
+| [Unified Tracking](https://aoneahsan.com/projects/com.aoneahsan.unifiedtracking) | Zero-runtime-dependency TypeScript package giving web, React, and Capacitor apps one AP… | [📦](https://www.npmjs.com/package/unified-tracking "npm") [🐙](https://github.com/aoneahsan/unified-tracking "GitHub") |
+| [WebAuthn Server BuildKit](https://aoneahsan.com/projects/com.aoneahsan.webauthnserverbuildkit) | Framework-independent TypeScript server library that verifies passkey registration and… | [📦](https://www.npmjs.com/package/webauthn-server-buildkit "npm") [🐙](https://github.com/aoneahsan/webauthn-server-buildkit "GitHub") |
 
-[🌐 Web](https://zaions.com) · [🤖 Google Play](https://play.google.com/store/apps/details?id=com.zaions.app)
+### Mobile apps (2)
 
-**➜ [Open Zaions](https://zaions.com)**
+| Product | What it is | Where |
+|---|---|---|
+| [2FA Studio](https://aoneahsan.com/projects/com.aoneahsan.2fastudio) | Two-factor authentication management studio for secure account management | [🌐](https://2fastudio.aoneahsan.com/ "Web") |
+| [CallVault](https://aoneahsan.com/projects/com.aoneahsan.callvault) | Offline-first Android app that records your own calls and backs them up to storage and… | [🌐](https://callvault.aoneahsan.com "Web") |
 
-</details>
+### Browser extensions (1)
+
+| Product | What it is | Where |
+|---|---|---|
+| [CRXForge (Extension Template)](https://aoneahsan.com/projects/com.aoneahsan.crxforge) | Cross-browser (Chrome/Firefox/Edge) Manifest V3 extension starter on WXT, React 19, and… | [🌐](https://github.com/aoneahsan/crxforge#readme "Web") [🐙](https://github.com/aoneahsan/crxforge "GitHub") |
+
+<sub>🔴 Three of the products above are deployed on a client's own domain rather than mine, and are
+marked <b>client-hosted</b>. Their addresses are deliberately not repeated here — the same rule keeps
+them off the live-product wall on aoneahsan.com. Nyuk.in Invoice Generator · Legal Eagle Law Firm · Perkforce — Employee Perks & Benefits SaaS.</sub>
+
+<a id="packages"></a>
+## 📦 npm packages&nbsp;[#](#packages)
+
+**25 packages** published under the [`aoneahsan`](https://www.npmjs.com/~aoneahsan) maintainer,
+counted from the registry rather than from a list kept by hand.
+
+| Package | What it does |
+|---|---|
+| [`buildkit-ui`](https://www.npmjs.com/package/buildkit-ui) | BuildKit UI is a Capacitor package that provides React UI components with comprehensive cros… |
+| [`capacitor-auth-manager`](https://www.npmjs.com/package/capacitor-auth-manager) | Capacitor + web authentication |
+| [`capacitor-biometric-authentication`](https://www.npmjs.com/package/capacitor-biometric-authentication) | Biometric and WebAuthn authentication for web, iOS and Android — one API, no providers. |
+| [`capacitor-firebase-kit`](https://www.npmjs.com/package/capacitor-firebase-kit) | Provider-less Firebase Kit - Universal Firebase services integration for React, React Native… |
+| [`capacitor-native-update`](https://www.npmjs.com/package/capacitor-native-update) | Native Update Plugin for Capacitor |
+| [`code-craft-studio`](https://www.npmjs.com/package/code-craft-studio) | A comprehensive QR code and barcode scanning/generation library for React |
+| [`express-buildkit`](https://www.npmjs.com/package/express-buildkit) | Express BuildKit - A comprehensive TypeScript utility library for Express.js applications |
+| [`linux-cleanup`](https://www.npmjs.com/package/linux-cleanup) | Safe, modular disk and cache cleanup for Linux — prune by default, allowlist-guarded. |
+| [`macleanup`](https://www.npmjs.com/package/macleanup) | Safe-by-default macOS cleanup CLI — 28 sections, a real dry-run, zero install via npx. |
+| [`native-update`](https://www.npmjs.com/package/native-update) | Over-the-air updates, app-store update flows, and in-app reviews for Capacitor apps. |
+| [`notification-kit`](https://www.npmjs.com/package/notification-kit) | One API for push, in-app, and local notifications across Web, iOS, and Android. |
+| [`qrcode-studio`](https://www.npmjs.com/package/qrcode-studio) | A comprehensive Capacitor plugin for QR code and barcode scanning/generation |
+| [`radixui-buildkit`](https://www.npmjs.com/package/radixui-buildkit) | A comprehensive React UI toolkit built on Radix UI primitives with TypeScript support, provi… |
+| [`react-buildkit`](https://www.npmjs.com/package/react-buildkit) | React BuildKit - A comprehensive TypeScript utility library for React applications with Capa… |
+| [`shared-features`](https://www.npmjs.com/package/shared-features) | Feature flags, cross-promotion ads and in-app broadcasts for React apps, from one admin panel. |
+| [`strata-storage`](https://www.npmjs.com/package/strata-storage) | One storage API across web, iOS and Android — zero runtime dependencies. |
+| [`sysscope`](https://www.npmjs.com/package/sysscope) | See which local AI models and dev workloads your Mac or Linux machine can actually run. |
+| [`ts-buildkit`](https://www.npmjs.com/package/ts-buildkit) | Typescript Build Kit, this is generic build kit package created by Ahsan Mahmood (https://ao… |
+| [`unified-error-handling`](https://www.npmjs.com/package/unified-error-handling) | One error-capture API for your app, with the tracking SDK loaded only when you use it. |
+| [`unified-tracking`](https://www.npmjs.com/package/unified-tracking) | One analytics and error-tracking API across 16 providers for web, React and Capacitor apps |
+| [`webauthn-server-buildkit`](https://www.npmjs.com/package/webauthn-server-buildkit) | Framework-independent WebAuthn server for Node.js — passkeys, attestation, encrypted sessions. |
+| [`windowsweep`](https://www.npmjs.com/package/windowsweep) | Safe-by-default Windows cleanup CLI - developer-aware, dry-run first, zero install via npx. |
+| [`zaions-express-tool-kit`](https://www.npmjs.com/package/zaions-express-tool-kit) | Zaions Express Tool Kit, this is for expressJs/Typescript projects created by Zaions Dev Tea… |
+| [`zaions-react-tool-kit`](https://www.npmjs.com/package/zaions-react-tool-kit) | Zaions React Tool Kit, this is react projects tool kit created by Zaions Dev Team (https://z… |
+| [`zaions-react-ui-kit`](https://www.npmjs.com/package/zaions-react-ui-kit) | Zaions React ui Kit, this is react projects tool kit created by Zaions Dev Team (https://zai… |
 
 <a id="contact-and-profiles"></a>
 ## 📇 Contact and profiles&nbsp;[#](#contact-and-profiles)
