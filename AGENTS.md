@@ -1,5 +1,7 @@
 # GitHub profile repository
 
+**Last Updated:** 2026-10-20
+
 **Last updated:** 2026-09-15. This public special repository is aoneahsan/aoneahsan; README.md renders at
 https://github.com/aoneahsan. Claude Code reads CLAUDE.md; other agents read AGENTS.md. Read one native guide
 only and keep their rules equivalent.
@@ -63,3 +65,9 @@ recorded centrally.
 
 Validate SVG as XML, verify URLs sequentially, recalculate counts, check anchors, and run git diff --check.
 Keep light/dark SVG banners synchronized without JavaScript. Follow inherited rules.
+
+## Stop-work Git gate
+
+<!-- RULE:stop-work-git-gate v2026-10-20 -->
+
+Before stopping, commit every legitimate change and work-progress checkpoint in this repository and each independent nested repository, fetch and merge the designated upstream, push the documented working branch, then verify an empty worktree and `0 0` ahead/behind. Never stash, discard, reset, rebase, or force-push. If synchronization is blocked, report the exact repository, branch, blocker, and next action instead of calling the work complete. The full workflow remains authoritative in `~/.claude/rules/git-workflow.md`.
