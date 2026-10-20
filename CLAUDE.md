@@ -2,9 +2,8 @@
 
 **Last Updated:** 2026-10-20
 
-**Last updated:** 2026-09-15. This public special repository is aoneahsan/aoneahsan; README.md renders at
-https://github.com/aoneahsan. Claude Code reads CLAUDE.md; other agents read AGENTS.md. Read one native guide
-only and keep their rules equivalent.
+This public special repository is `aoneahsan/aoneahsan`; `README.md` renders at
+<https://github.com/aoneahsan>. Read one native guide only and keep `CLAUDE.md` and `AGENTS.md` equivalent.
 
 ## Safety and scope
 
@@ -50,9 +49,9 @@ BibTeX omit the same dead channel.
 
 | Field | Value |
 |---|---|
-| Last optimized | 2026-09-15 |
-| Next routine optimization eligible | 2026-10-15 |
-| Guide bytes | 3,658 B |
+| Last optimized | 2026-10-20 |
+| Next routine optimization eligible | 2026-11-19 |
+| Guide bytes | 4,220 B |
 | Covered subtree | Entire aoneahsan-github-profile repository |
 | Method | Public-safety and content contracts retained; probe evidence and maintenance detail moved on demand |
 | Fleet record | /home/ahsan/Documents/01-code/docs/tracking/project-context-budget-tracker.json |
